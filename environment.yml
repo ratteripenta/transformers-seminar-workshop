@@ -1,0 +1,13 @@
+name: transformers-seminar-workshop
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas
+  - numpy
+  - jupyter
+  - pip:
+      - black==21.12b0
+      - matplotlib==3.7.1
+      - seaborn==0.10.0
