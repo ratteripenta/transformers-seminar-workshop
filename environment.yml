@@ -2,12 +2,18 @@ name: transformers-seminar-workshop
 channels:
   - defaults
   - conda-forge
+  - pytorch
+  - nvidia
 dependencies:
   - python=3.8
   - pandas
   - numpy
   - jupyter
+  - ipykernel
+  - pytorch
+  - pytorch-cuda=11.7
+  - pip
   - pip:
-      - black==21.12b0
+      - black
       - matplotlib==3.7.1
       - seaborn==0.10.0
