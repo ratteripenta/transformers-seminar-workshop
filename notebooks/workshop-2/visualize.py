@@ -53,7 +53,7 @@ def visualize_self_attention(
             plt.figure(figsize=(fig_width, token_fig_height))
             sns.heatmap(
                 value[0, ::].T,
-        xticklabels=[],
+                xticklabels=[],
                 yticklabels=[f"${name.upper()}_{i}$" for i in range(value.shape[2])],
                 **common_args,
             )
