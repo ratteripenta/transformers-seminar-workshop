@@ -6,15 +6,17 @@ channels:
   - nvidia
   - huggingface 
 dependencies:
-  - python=3.8
+  - python=3.10
   - pandas
   - numpy
   - nltk
   - jupyter
   - ipykernel
   - pytorch
-  - pytorch-cuda=11.7
+  - pytorch-cuda=11.8
   - transformers
+  - torchaudio 
+  - torchvision
   - pip
   - pip:
       - black
