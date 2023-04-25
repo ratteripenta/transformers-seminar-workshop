@@ -1,6 +1,7 @@
 # Project
 *.bkp
 data/*.csv
+**/out/*
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
