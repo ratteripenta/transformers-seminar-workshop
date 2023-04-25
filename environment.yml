@@ -2,21 +2,15 @@ name: transformers-seminar-workshop
 channels:
   - defaults
   - conda-forge
-  - pytorch
-  - nvidia
   - huggingface 
 dependencies:
-  - python=3.10
+  - python=3.9
   - pandas
   - numpy
   - nltk
   - jupyter
   - ipykernel
-  - pytorch
-  - pytorch-cuda=11.8
   - transformers
-  - torchaudio 
-  - torchvision
   - pip
   - pip:
       - black
