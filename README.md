@@ -4,6 +4,15 @@ Initially created for [PhD Seminar on AI-Assisted Software Engineering](https://
  - Fine-tuning a transformer model based on a text corpus (Day 1)
  - Developing custom transformer architecture (Day 2)
 
+## General setup
+
+The repository comes bundled with an already fine-tuned BERT for the data to help all get on board even when they don't have sufficient resources for performing the fine-tuning a) themself or b) in a timely manner. 
+
+To get the fine-tuned model:
+
+ 1. Download the zipped fine-tuned pre-trained BERT from [Google Drive](https://drive.google.com/drive/folders/1_4-H5pz2v5tgWp6xZLMnpS-gSomBQpRN?usp=sharing) (too big for Github)
+ 2. Extract the model under `model`
+
 ## Local setup
 
  1. Install [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
@@ -16,7 +25,6 @@ Initially created for [PhD Seminar on AI-Assisted Software Engineering](https://
         pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
 
  4. Use correct `conda` environment with notebooks.
- 5. Download fine-tuned pre-trained BERT from [Google Drive](https://drive.google.com/drive/folders/1_4-H5pz2v5tgWp6xZLMnpS-gSomBQpRN?usp=sharing) (too big for Github)
 
 ## Additional resources for learning
 
