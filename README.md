@@ -33,6 +33,10 @@ Attention is all you need (2017)
  - [The Annotated Transformer: notebook of paper with code](http://nlp.seas.harvard.edu/annotated-transformer/)
  - [Stanford CS224N: NLP with Deep Learning | Winter 2019 | Lecture 14 – Transformers and Self-Attention](https://youtu.be/5vcj8kSwBCY)
 
+BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding (2018)
+ - [arXiv](https://arxiv.org/pdf/1810.04805.pdf)
+ - [Github repo](https://github.com/google-research/bert)
+
 HuggingFace Course
  - [YouTube playlist](https://www.youtube.com/playlist?list=PLo2EIpI_JMQvWfQndUesu0nPBAtZ9gP1o)
 
