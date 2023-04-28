@@ -12,7 +12,7 @@ To get the fine-tuned model:
 
  1. Download the the already trained models used in the notebooks from [Google Drive](https://drive.google.com/drive/folders/1_4-H5pz2v5tgWp6xZLMnpS-gSomBQpRN?usp=sharing) (too bi for Github):
   - Fine-tuned MLM BERT: `bert-base-uncased-finetuned.zip`
-- Fine-tuned MLM BERT with classification head: `classifier-fine.zip` 
+  - Fine-tuned MLM BERT with classification head: `classifier-fine.zip` 
   - Pre-trained MLM BERT with classification head: `classifier-pre.zip`
    
  2. Extract the models under `model` under respective folders (correct structure in archive)
