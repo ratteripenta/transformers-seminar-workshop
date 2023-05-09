@@ -46,6 +46,7 @@ HuggingFace Course
 
 Jay Alammar's blog posts about core concepts
  - [The Illustrated Transformer](https://jalammar.github.io/illustrated-transformer/)
+ - [The Illustrated BERT](https://jalammar.github.io/illustrated-bert/)
  - [The Illustrated GPT-2 (Visualizing Transformer Language Models)](https://jalammar.github.io/illustrated-gpt2/)
  - [Visualizing A Neural Machine Translation Model (Mechanics of Seq2seq Models With Attention)](https://jalammar.github.io/visualizing-neural-machine-translation-mechanics-of-seq2seq-models-with-attention/)
 
