@@ -55,3 +55,7 @@ Udemy course "Natural Language Processing: NLP With Transformers in Python"
 
 Peter Bloems blog "Transformers from scratch"
  - [Link](https://peterbloem.nl/blog/transformers)
+
+Neptune.ai's blog on creating BERT in Pytorch
+ - [Link](https://neptune.ai/blog/how-to-code-bert-using-pytorch-tutorial)
+ 
