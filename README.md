@@ -64,3 +64,6 @@ Neptune.ai's blog on creating BERT in Pytorch
 The custom BERT of workshop 2 does not incorporate MLM pre-training, but is essentially a transformer-based classifier
  - For learning about transformers, this suffices
  - For learning about BERT and how a fine-tunable and transfer learnable models, this this lacks a bit
+
+WS 1/ NB 1
+ - "Describe numeric columns" -> No numeric columns in the dataset
