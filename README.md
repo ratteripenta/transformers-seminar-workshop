@@ -61,9 +61,22 @@ Neptune.ai's blog on creating BERT in Pytorch
  
 ## Ideas for development
 
+More code hints to the code blocks as comments
+
+Better introductions to the notebook re: structure
+
+More deliberate hands-on codiong with attendees (show dont tell)
+
 The custom BERT of workshop 2 does not incorporate MLM pre-training, but is essentially a transformer-based classifier
  - For learning about transformers, this suffices
  - For learning about BERT and how a fine-tunable and transfer learnable models, this this lacks a bit
 
-WS 1/ NB 1
- - "Describe numeric columns" -> No numeric columns in the dataset
+WS1/NB1
+ - "Describe numeric columns" -> No numeric columns in the 
+ 
+WS2/NB1
+ - Multi-haed description: where does the 64 come from?
+
+WS2/NB2
+ - BE MORE EXPLICIT WITH COLAB DATA USAGE (no need to preprocess again and again)
+ - Add general image descriptions for the steps that are taken
