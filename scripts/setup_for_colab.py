@@ -36,8 +36,8 @@ for root, directories, files in os.walk(NOTEBOOKS_DIR):
                     cell.source = ""
 
             # Merge with the specific notebook
-            merge_notebook = nbf.read(COLAB_SETUP_NOTEBOOK_PATH, as_version=4)
-            notebook.cells.extend(merge_notebook.cells)
+            setup_notebook = nbf.read(COLAB_SETUP_NOTEBOOK_PATH, as_version=4)
+            setup_notebook.cells.extend(notebook.cells)
 
             # Save the modified notebook
             with open(notebook_path, "w", encoding="utf-8") as f:
