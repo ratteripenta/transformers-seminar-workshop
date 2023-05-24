@@ -31,4 +31,3 @@ for root, directories, files in os.walk(NOTEBOOKS_DIR):
             # Save the modified notebook
             with open(notebook_path, "w", encoding="utf-8") as f:
                 nbf.write(notebook, f)
-            raise
