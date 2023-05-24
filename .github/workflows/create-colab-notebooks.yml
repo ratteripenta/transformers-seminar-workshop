@@ -1,0 +1,32 @@
+name: Remove code cells from correct-answers branch
+
+on:
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.x
+
+    - name: Clear answers
+      run: make clear-answers
+
+    - name: Add Colab setup header
+      run: make colab
+
+    - name: Commit and push changes
+      run: |
+        git config user.name "Petteri U. Ranta"
+        git config user.email "petteri.u.ranta@gmail.com"
+        git commit -am "Clear code cells and add Colab setup headers"
+        git push
