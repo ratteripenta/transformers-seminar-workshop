@@ -23,4 +23,4 @@ jobs:
           git config user.email "petteri.u.ranta@gmail.com"
           git checkout -b google-colab
           git commit -am "Clear code cells and add Colab setup headers"
-          git push
+          git push --set-upstream origin google-colab
