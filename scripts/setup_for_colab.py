@@ -22,7 +22,7 @@ def merge_notebooks(notebook_paths):
 # Iterate over the root, directories, and files in the notebooks directory
 for root, directories, files in os.walk(NOTEBOOKS_DIR):
     for filename in files:
-        if filename.endswith(".ipynb"):
+        if filename.endswith(".ipynb") and "colab-setup" not in filename:
             print(f"Clearing answers and merging {filename}")
             notebook_path = os.path.join(root, filename)
 
