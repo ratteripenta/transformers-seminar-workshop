@@ -1,6 +1,7 @@
 name: Create Google Colab notebooks
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
       - main
