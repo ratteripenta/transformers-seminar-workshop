@@ -1,4 +1,4 @@
-name: Remove code cells from correct-answers branch
+name: Create Google Colab notebooks
 
 on:
   pull_request:
@@ -28,5 +28,6 @@ jobs:
       run: |
         git config user.name "Petteri U. Ranta"
         git config user.email "petteri.u.ranta@gmail.com"
+        git checkout google-colab
         git commit -am "Clear code cells and add Colab setup headers"
         git push
