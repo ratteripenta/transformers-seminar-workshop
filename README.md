@@ -4,18 +4,20 @@ Initially created for [PhD Seminar on AI-Assisted Software Engineering](https://
  - Fine-tuning a transformer model based on a text corpus (Day 1)
  - Developing custom transformer architecture (Day 2)
 
+The `main` branch contains all the code necessary to run the notebooks.
+
+The `google-colab` branch is intended for students and requires manually coding some parts of the notebooks.
+
 ## General setup
 
 The repository comes bundled with an already fine-tuned BERT for the data to help all get on board even when they don't have sufficient resources for performing the fine-tuning a) themself or b) in a timely manner. 
 
 To get the fine-tuned model:
 
- 1. Download the the already trained models used in the notebooks from [Google Drive](https://drive.google.com/drive/folders/1_4-H5pz2v5tgWp6xZLMnpS-gSomBQpRN?usp=sharing) (too bi for Github):
-  - Fine-tuned MLM BERT: `bert-base-uncased-finetuned.zip`
-  - Fine-tuned MLM BERT with classification head: `classifier-fine.zip` 
-  - Pre-trained MLM BERT with classification head: `classifier-pre.zip`
-   
- 2. Extract the models under `model` under respective folders (correct structure in archive)
+ 1. Download the the already trained models used in the notebooks from thei corresponding Hugging Face repositories and persist them in the `model` folder:
+  - Fine-tuned MLM BERT: `git clone https://huggingface.co/karmus89/bert-base-uncased-finetuned`
+  - Fine-tuned MLM BERT with classification head: `git clone https://huggingface.co/karmus89/classifier-fine`
+  - Pre-trained MLM BERT with classification head: `git clone https://huggingface.co/karmus89/classifier-pre`
 
 ## Local setup
 
@@ -67,10 +69,5 @@ Neptune.ai's blog on creating BERT in Pytorch
  
 ## Ideas for development
 
-More code hints to the code blocks as comments
-
 Better introductions to the notebook re: structure
-
-WS2/NB2
- - BE MORE EXPLICIT WITH COLAB DATA USAGE (no need to preprocess again and again)
  - Add general image descriptions for the steps that are taken
