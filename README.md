@@ -4,9 +4,17 @@ Initially created for [PhD Seminar on AI-Assisted Software Engineering](https://
  - Fine-tuning a transformer model based on a text corpus (Day 1)
  - Developing custom transformer architecture (Day 2)
 
-The `main` branch contains all the code necessary to run the notebooks.
+The `main` branch contains all the code necessary to run the notebooks (e.g. correct answers for the students).
 
-The `google-colab` branch is intended for students and requires manually coding some parts of the notebooks.
+The `google-colab` branch is intended for students and requires manually coding some parts of the notebooks. To use the notebook in Google Colab:
+ - Go to *https://colab.research.google.com/*
+ - Open a new notebook and select the *Github* tab
+   - For username, enter *karmus89*
+   - For repository, select *transformers-seminar-workshop*
+   - For branch, select *google-colab*
+   - Remember to change the runtime to *GPU* for training
+ - The repository is always up to date with respect to the *main* branch
+   - Some of the code cells have been omitted, though
 
 ## General setup
 
